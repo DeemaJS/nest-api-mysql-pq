@@ -43,6 +43,9 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+# docker run pg, some for mysql, change only image postgres
+docker run --name some-base -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 ```
 
 ## Test
